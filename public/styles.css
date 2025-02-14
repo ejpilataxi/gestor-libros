@@ -1,0 +1,176 @@
+/* Configuración global */
+body {
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el espacio adicional */
+    background-color: #f4f4f4; /* Color de fondo gris claro */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #222; /* Fondo oscuro */
+    padding: 15px 0; /* Espaciado interno */
+    text-align: center; /* Centra el contenido */
+}
+
+/* ✅ Menú de navegación */
+nav ul {
+    list-style: none; /* Elimina los estilos de lista (viñetas) */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Usa flexbox para alinear elementos */
+    justify-content: center; /* Centra los elementos en línea */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaciado entre los elementos del menú */
+}
+
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: white; /* Texto en color blanco */
+    font-size: 18px; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Cambia de color al pasar el mouse */
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%; /* Ajusta el ancho */
+    margin: 40px auto; /* Centra horizontalmente */
+    background: white; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: center; /* Centra el texto */
+}
+
+/* Títulos */
+h1 {
+    color: #333; /* Color del texto */
+    text-align: center; /* Asegura que el título esté centrado */
+}
+
+/* Párrafos */
+p {
+    text-align: center; /* Centra los párrafos */
+    font-size: 18px; /* Tamaño del texto */
+    color: #555; /* Color gris oscuro */
+}
+
+/* ✅ Contenedor del formulario */
+.form-container {
+    width: 50%; /* Ajusta el ancho del formulario */
+    margin: auto; /* Centra el formulario */
+    background: white; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: left; /* Alineación del texto */
+}
+
+/* Imágenes */
+img {
+    display: block; /* Evita espacios adicionales */
+    margin: 20px auto; /* Centra la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en columna */
+}
+
+form label {
+    font-weight: bold; /* Etiquetas en negrita */
+    margin-top: 10px; /* Espaciado superior */
+}
+
+form input {
+    padding: 8px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 100%; /* Ocupa el 100% del contenedor */
+}
+
+/* Botones */
+button {
+    margin-top: 15px; /* Espaciado superior */
+    padding: 10px; /* Espaciado interno */
+    background-color: #28a745; /* Verde */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+button:hover {
+    background-color: #218838; /* Color verde más oscuro al pasar el mouse */
+}
+
+/* Mensajes de éxito */
+.mensaje {
+    color: green; /* Texto en verde */
+    font-weight: bold; /* Negrita */
+}
+
+/* Tabla */
+table {
+    width: 100%; /* Ocupa todo el ancho */
+    border-collapse: collapse; /* Elimina los espacios entre bordes */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Bordes grises */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+}
+
+th {
+    background-color: #222; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+}
+
+/* Botones de edición y eliminación */
+.btn-editar, .btn-eliminar {
+    text-decoration: none; /* Elimina subrayado */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Negrita */
+}
+
+.btn-editar {
+    background-color: #007bff; /* Azul */
+    color: white; /* Texto blanco */
+}
+
+.btn-editar:hover {
+    background-color: #0056b3; /* Azul oscuro al pasar el mouse */
+}
+
+.btn-eliminar {
+    background-color: #dc3545; /* Rojo */
+    color: white; /* Texto blanco */
+}
+
+.btn-eliminar:hover {
+    background-color: #b52a37; /* Rojo oscuro al pasar el mouse */
+}
+
+/* Lista de contactos */
+.contact-list {
+    list-style: none; /* Elimina viñetas */
+    padding: 0;
+}
+
+.contact-list li {
+    font-size: 18px; /* Tamaño del texto */
+    margin: 10px 0; /* Espaciado entre elementos */
+}
